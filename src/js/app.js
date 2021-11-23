@@ -7,6 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
   //var att = document.createAttribute("data-price");
   //att.value = _price.innerText;
   //_product.setAttributeNode(att);
-  _product[0].setAttribute("data-price", _price.innerText);
+  _product[0].setAttribute("data-price", _price[0].innerText);
   //_product.dataset.price = _price.innerText; - not working
 });
